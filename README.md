@@ -33,8 +33,8 @@ f1-laptime/
 
 ### 1. Clone the repository
 ```sh
-git clone <your-repo-url>
-cd f1-laptime
+git clone git@github.com:DakshKaushik/f1-lap-time.git
+cd f1-lap-time
 ```
 
 ### 2. Backend Setup (Python, FastAPI)
@@ -66,18 +66,6 @@ npm start
 
 ---
 
-## Customization & Notes
-- The backend uses FastF1 to fetch real F1 data. Make sure you have a stable internet connection for data fetching.
-- The frontend and backend are decoupled; you can deploy them separately if needed.
-- For production, consider setting up environment variables for API URLs and enabling HTTPS.
-
----
-
 ## Credits
 - [FastF1](https://theoehrly.github.io/Fast-F1/) for F1 data
 - [React](https://react.dev/) and [Recharts](https://recharts.org/) for the frontend
-
----
-
-## License
-MIT 
